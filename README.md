@@ -1,31 +1,31 @@
-# Let's build a python API for Bible Gateway
+# Let's build a Python API for Bible Gateway
 
-# Available classes
-## Bible
+## Available classes
+### Bible
 * open(book, chapter, verse) := _returns bible text_
-## API
+### API
 * fetch(book, chapter, verse) := _returns API response_
-## Parser
+### Parser
 This class will be used to parse response returned from the API gateway.
 
 Parser(response) := _an instance of the Parser_
 * content := _bible text_
 
-# Installation
+## Installation
 ```bash
 git clone https://github.com/andela-dJames/python pyble
 cd pyble
 ```
 
-# Usage
+## Usage
 ```bash
 pyble open Genesis 1:1
 ```
 
-# Libraries
+## Libraries
 * Beautiful Soup 4
 * requests
 * nosetests
 
-# APIs
+## APIs
 * Bible Gateway
