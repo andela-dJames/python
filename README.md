@@ -3,8 +3,10 @@
 ## Available classes
 ### Bible
 * open(book, chapter, verse) := _returns bible text_
+
 ### API
 * fetch(book, chapter, verse) := _returns API response_
+
 ### Parser
 This class will be used to parse response returned from the API gateway.
 
